@@ -5,7 +5,7 @@ from app.routes import chatbot_routes
 app = Flask(__name__)
 
 # ✅ Allow requests from React
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": "https://chatbot-z15l.onrender.com"}})
 
 # Or this for testing (not for production)
 # CORS(app)
